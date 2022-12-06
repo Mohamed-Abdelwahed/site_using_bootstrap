@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --mainColor:#f4623a;
+}
+
+
+#mainNav.navbar-shrink {
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+}
+
+.main{
+    background-image: url('../images/bg-masthead.jpg');
+    height: 100vh;
+    background-size:cover;
+}
+
+.color__main{
+    background-color: var(--mainColor);
+}
+
+.main__content{
+    z-index: 2;
+}
+
+.main__title{
+    font-size: 3.5rem;
+}
+
+.main__line{
+    background-color: var(--mainColor);
+    width: 50px;
+    height: 3px;
+    margin: auto;
+}
+
+.header-overlay{
+   
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: rgba(255, 179, 0, 0.119);
+}
+
+.section__about{
+    background-color: var(--mainColor);
+    padding:10rem 0;
+}
+
+.line__white{
+    background-color: #fff;
+}
+
+
+/* service start */
+.service-section{
+    padding: 8rem 0;
+}
+
+.my__icons {
+    color: var(--mainColor);
+}
+/* service end */
+
+/* portofolio start */
+.portfolio-box{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.portfolio-box-caption{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: rgba(244, 98, 58, 0.9);
+    transition: opacity 0.25s ease;
+   opacity: 0;;
+}
+
+.portfolio-box:hover .portfolio-box-caption{
+   opacity: 1;
+}
+/* portofolio end */
+
+/* call aaction start */
+.page-section {
+    padding: 8rem 0;
+}
+
+.btn-xl {
+    padding: 1.25rem 2.25rem;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+}  
+
+/* call action end */
+
+/* contact start */
+.my-btn{
+    background-color: var(--mainColor);
+}
+/* contact end */
